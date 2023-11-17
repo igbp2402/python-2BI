@@ -18,7 +18,7 @@ class ContaBancaria:
         print(f'Saldo atual da conta de {self.titular}: R${self.saldo}')
 
 
-conta_exemplo = ContaBancaria("João")
+conta_exemplo = ContaBancaria("Igor")
 
 conta_exemplo.depositar(1000)
 conta_exemplo.sacar(500)
